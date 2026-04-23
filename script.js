@@ -1,3 +1,3 @@
 function contact() {
-    alert("Contactez-moi sur WhatsApp : +221773776179");
+    alert("Contactez-moi sur WhatsApp : +221756447598");
 }
