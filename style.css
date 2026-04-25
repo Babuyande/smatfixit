@@ -74,3 +74,33 @@ footer {
     background-color: #1ebe5d;
     transform: scale(1.05);
 }
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background: #0a2a66;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
