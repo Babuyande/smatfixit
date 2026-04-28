@@ -113,12 +113,12 @@ form button {
     margin-bottom: 5px;
 }
 .logo {
-    height: 50px;
+    height: 100px;
 }
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 10px;
     color: white;
     font-weight: bold;
 }
