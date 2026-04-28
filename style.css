@@ -6,26 +6,43 @@ body {
 
 /* HEADER */
 header {
-    background: #0a2a66;
+    header {
+    background-color: #0f172a;
     color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
+    padding: 15px 50px;
 }
 
-nav a {
-    color: white;
-    margin-left: 15px;
-    text-decoration: none;
 }
+nav a {
+    color: #e2e8f0;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+nav a.active {
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: #3b82f6;
+}
+
 
 /* HERO */
 .hero {
-    text-align: center;
-    padding: 60px;
-    background: linear-gradient(to right, #0a2a66, #007bff);
+    background: linear-gradient(to right, #1e3a8a, #3b82f6);
     color: white;
+    text-align: center;
+    padding: 80px 20px;
 }
+
 
 .slogan {
     color: gold;
@@ -34,9 +51,10 @@ nav a {
 
 /* SERVICES */
 .services {
-    padding: 40px;
-    text-align: center;
+    background-color: #f8fafc;
+    padding: 50px 20px;
 }
+
 
 .cards {
     display: flex;
@@ -46,8 +64,9 @@ nav a {
 
 .card {
     background: white;
+    border-radius: 10px;
     padding: 20px;
-    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 /* FOOTER */
@@ -115,13 +134,7 @@ form button {
 .logo {
     height: 200px;
     background: transparent;
-}
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: white;
-    font-weight: bold;
+
 }
 header {
     display: flex;
