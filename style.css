@@ -6,7 +6,7 @@ body {
 
 /* HEADER */
 header {
-    background: #0a2a66;
+    background: white;
     color: white;
     padding: 15px;
     display: flex;
@@ -14,7 +14,7 @@ header {
 }
 
 nav a {
-    color: #60a5fa; /* bleu clair visible */
+    color: #070707; /* noir visible */
     margin-left: 15px;
     text-decoration: none;
     font-weight: 600;
