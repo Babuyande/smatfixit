@@ -122,4 +122,9 @@ form button {
     color: white;
     font-weight: bold;
 }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
