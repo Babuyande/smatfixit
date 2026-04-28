@@ -118,7 +118,7 @@ form button {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 100px;
     color: white;
     font-weight: bold;
 }
