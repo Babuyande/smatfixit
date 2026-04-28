@@ -115,4 +115,11 @@ form button {
 .logo {
     height: 50px;
 }
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
 
