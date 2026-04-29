@@ -126,3 +126,46 @@ form button {
     color: white;
     font-weight: bold;
 }
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 40px 10px;
+    }
+
+    /* SERVICES */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    /* FORM */
+    form {
+        width: 90%;
+    }
+
+    /* LOGO */
+    .logo {
+        height: 60px;
+    }
+}
