@@ -35,27 +35,48 @@
             <p><strong>Email :</strong> <a href="mailto:helpdesk.informatique83@gmail.com">helpdesk.informatique83@gmail.com</a></p>
             <a class="btn btn-whatsapp" href="https://wa.me/221756447598?text=Bonjour%20SmartFix%20IT%2C%20je%20souhaite%20un%20service%20informatique" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
         </div>
+<form class="contact-form" action="https://formsubmit.co/helpdesk.informatique83@gmail.com" method="POST">
+    <h2>Demande d’intervention</h2>
 
-        <form class="contact-form" action="https://formsubmit.co/helpdesk.informatique83@gmail.com" method="POST">
-            <h2>Envoyez un message</h2>
-            <label for="nom">Nom</label>
-            <input id="nom" type="text" name="nom" placeholder="Votre nom" required>
+    <label for="nom">Nom complet</label>
+    <input id="nom" type="text" name="Nom complet" placeholder="Ex : Babacar Gueye" required>
 
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" placeholder="Votre email" required>
+    <label for="telephone">Téléphone</label>
+    <input id="telephone" type="tel" name="Téléphone" placeholder="Ex : +221 77 000 00 00" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" placeholder="Décrivez votre besoin" required></textarea>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="Email" placeholder="Ex : contact@email.com" required>
 
-            <input type="hidden" name="_next" value="https://babuyande.github.io/smatfixit/merci.html">
-            <input type="hidden" name="_redirect" value="https://babuyande.github.io/smatfixit/merci.html">
-            <input type="hidden" name="_subject" value="Nouveau message SmartFix IT">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_url" value="https://babuyande.github.io/smatfixit/">
+    <label for="service">Service demandé</label>
+    <select id="service" name="Service demandé" required>
+        <option value="">Sélectionnez un service</option>
+        <option>Assistance informatique</option>
+        <option>Réseau & Wi-Fi</option>
+        <option>Sauvegarde & récupération</option>
+        <option>Câblage réseau</option>
+        <option>Maintenance informatique</option>
+        <option>Autre demande</option>
+    </select>
 
-            <button class="btn btn-primary" type="submit">Envoyer le message</button>
-        </form>
+    <label for="urgence">Niveau d’urgence</label>
+    <select id="urgence" name="Niveau d’urgence" required>
+        <option value="">Sélectionnez le niveau</option>
+        <option>Normal</option>
+        <option>Urgent</option>
+        <option>Très urgent</option>
+    </select>
+
+    <label for="message">Description du besoin</label>
+    <textarea id="message" name="Description du besoin" rows="6" placeholder="Décrivez votre problème ou votre demande..." required></textarea>
+
+    <input type="hidden" name="_next" value="https://babuyande.github.io/smatfixit/merci.html">
+    <input type="hidden" name="_subject" value="Nouvelle demande d’intervention - SmartFix IT">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_url" value="https://babuyande.github.io/smatfixit/">
+
+    <button class="btn btn-primary" type="submit">Envoyer la demande</button>
+</form>
     </section>
 </main>
 
