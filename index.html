@@ -2,76 +2,102 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>SmartFix IT- Support Informatique Sénégal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartFix IT accompagne les entreprises au Sénégal avec des services de support informatique, réseau, sauvegarde, sécurité et câblage.">
+    <title>SmartFix IT - Support Informatique au Sénégal</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1><img src="images/logo.png" alt="SmartFix IT Logo" class="logo">
-    </h1>
-    <nav>
-        <a href="#">Accueil</a>
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="Accueil SmartFix IT">
+        <img src="images/logo.png" alt="Logo SmartFix IT" class="logo">
+        <span>SmartFix IT</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigation principale">
+        <a class="active" href="index.html">Accueil</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
     </nav>
 </header>
 
-<section class="hero">
-    <h2>SmartFix IT</h2>
-
-    <p class="slogan">Des solutions IT pour chaque entreprise</p>
-
-    <p>Support, sauvegarde et réseau pour les entreprises</p>
-
-    <a href="https://wa.me/221756447598?text=Bonjour%20je%20souhaite%20un%20service%20informatique" target="_blank">
-    <button class="whatsapp-btn">Contactez-nous sur WhatsApp</button>
-</a>
-
-
-</a>
-</section>
-
-<section class="services">
-    <h2>Nos services</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Support IT</h3>
-            <p>Assistance rapide pour vos utilisateurs</p>
+<main>
+    <section class="hero hero-home">
+        <div class="hero-content">
+            <span class="badge">Support informatique fiable au Sénégal</span>
+            <h1>Des solutions IT simples, rapides et professionnelles.</h1>
+            <p class="hero-text">SmartFix IT aide les entreprises à maintenir leurs postes, sécuriser leurs données, installer leur réseau et résoudre rapidement leurs problèmes informatiques.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="https://wa.me/221756447598?text=Bonjour%20SmartFix%20IT%2C%20je%20souhaite%20un%20service%20informatique" target="_blank" rel="noopener">Contact WhatsApp</a>
+                <a class="btn btn-secondary" href="services.html">Voir nos services</a>
+            </div>
         </div>
+    </section>
 
-        <div class="card">
-            <h3>Sauvegarde</h3>
-            <p>Protection de vos données avec des solutions fiables</p>
+    <section class="section intro-section">
+        <div class="section-title">
+            <span class="eyebrow">Pourquoi nous choisir ?</span>
+            <h2>Un partenaire IT proche de votre activité</h2>
+            <p>Nous intervenons avec une approche claire : diagnostic, solution, suivi et prévention.</p>
         </div>
-
-        <div class="card">
-            <h3>Réseau</h3>
-            <p>Installation et sécurisation de votre réseau</p>
+        <div class="features-grid">
+            <article class="feature-card">
+                <h3>Intervention rapide</h3>
+                <p>Assistance efficace pour limiter les interruptions de travail.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Solutions adaptées</h3>
+                <p>Des services pensés pour les petites entreprises, bureaux et organisations.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Suivi professionnel</h3>
+                <p>Conseils, maintenance et accompagnement pour éviter les pannes répétées.</p>
+            </article>
         </div>
-        <div class="card">
-            <h3>Câblage Informatique</h3>
-            <p>Installation et organisation de votre réseau physique.</p>
-            <ul>
-                <li>Installation câbles RJ45</li>
-                <li>Baie de brassage</li>
-                <li>Réseau entreprise</li>
-                <li>Test et certification</li>
-            </ul>
-        
-</div>
+    </section>
 
+    <section class="section services-section">
+        <div class="section-title">
+            <span class="eyebrow">Nos expertises</span>
+            <h2>Services informatiques</h2>
+        </div>
+        <div class="cards">
+            <article class="card">
+                <div class="card-icon">🛠️</div>
+                <h3>Support IT</h3>
+                <p>Assistance utilisateurs, dépannage PC, imprimantes, logiciels et messagerie.</p>
+            </article>
+            <article class="card">
+                <div class="card-icon">🔐</div>
+                <h3>Sauvegarde & Sécurité</h3>
+                <p>Protection de vos données, sauvegardes régulières et bonnes pratiques de sécurité.</p>
+            </article>
+            <article class="card">
+                <div class="card-icon">🌐</div>
+                <h3>Réseau</h3>
+                <p>Installation, configuration et sécurisation de votre réseau d’entreprise.</p>
+            </article>
+            <article class="card">
+                <div class="card-icon">🔌</div>
+                <h3>Câblage informatique</h3>
+                <p>Installation RJ45, baie de brassage, organisation et test du réseau physique.</p>
+            </article>
+        </div>
+    </section>
 
-    </div>
-</section>
+    <section class="cta-section">
+        <div>
+            <h2>Besoin d’une assistance informatique ?</h2>
+            <p>Expliquez-nous votre besoin et nous vous répondrons rapidement.</p>
+        </div>
+        <a class="btn btn-light" href="contact.html">Demander un service</a>
+    </section>
+</main>
 
-<footer>
-    <p>© 2026 SmartFix IT - Sénégal</p>
+<footer class="site-footer">
+    <p>© 2026 SmartFix IT - Sénégal. Tous droits réservés.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">

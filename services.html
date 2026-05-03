@@ -2,62 +2,82 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les services SmartFix IT : support informatique, sauvegarde, sécurité, réseau et câblage au Sénégal.">
     <title>Services - SmartFix IT</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1><img src="images/logo.png" alt="SmartFix IT Logo" class="logo">
-</h1>
-    <nav>
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="Accueil SmartFix IT">
+        <img src="images/logo.png" alt="Logo SmartFix IT" class="logo">
+        <span>SmartFix IT</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
-        <a href="services.html">Services</a>
+        <a class="active" href="services.html">Services</a>
         <a href="contact.html">Contact</a>
     </nav>
 </header>
 
-<section class="hero">
-    <h2>Nos Services</h2>
-    <p class="slogan">Des solutions IT pour chaque entreprise</p>
-</section>
+<main>
+    <section class="page-hero">
+        <span class="badge">Nos services</span>
+        <h1>Des prestations IT pour garder votre activité opérationnelle.</h1>
+        <p>Nous accompagnons les entreprises avec des solutions concrètes, fiables et faciles à maintenir.</p>
+    </section>
 
-<section class="services">
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Support Informatique</h3>
-            <p>Assistance rapide pour vos utilisateurs</p>
+    <section class="section services-section">
+        <div class="cards detailed-cards">
+            <article class="card">
+                <div class="card-icon">🛠️</div>
+                <h3>Support informatique</h3>
+                <p>Dépannage, assistance utilisateurs, configuration de postes et résolution des problèmes quotidiens.</p>
+                <ul>
+                    <li>PC, logiciels et imprimantes</li>
+                    <li>Messagerie professionnelle</li>
+                    <li>Maintenance préventive</li>
+                </ul>
+            </article>
+            <article class="card">
+                <div class="card-icon">🔐</div>
+                <h3>Sauvegarde & sécurité</h3>
+                <p>Mise en place de solutions pour protéger vos fichiers et limiter les pertes de données.</p>
+                <ul>
+                    <li>Sauvegarde locale ou cloud</li>
+                    <li>Protection antivirus</li>
+                    <li>Conseils de sécurité</li>
+                </ul>
+            </article>
+            <article class="card">
+                <div class="card-icon">🌐</div>
+                <h3>Réseau entreprise</h3>
+                <p>Installation et optimisation de votre connexion réseau pour un environnement stable.</p>
+                <ul>
+                    <li>Configuration routeur et Wi-Fi</li>
+                    <li>Partage de fichiers</li>
+                    <li>Sécurisation réseau</li>
+                </ul>
+            </article>
+            <article class="card">
+                <div class="card-icon">🔌</div>
+                <h3>Câblage informatique</h3>
+                <p>Installation propre et organisée de votre réseau physique.</p>
+                <ul>
+                    <li>Installation câbles RJ45</li>
+                    <li>Baie de brassage</li>
+                    <li>Test et certification</li>
+                </ul>
+            </article>
         </div>
+    </section>
+</main>
 
-        <div class="card">
-            <h3>Sauvegarde & Sécurité</h3>
-            <p>Protection de vos données</p>
-        </div>
-
-        <div class="card">
-            <h3>Réseau</h3>
-            <p>Installation réseau</p>
-        </div>
-<div class="card">
-            <h3>Câblage Informatique</h3>
-            <p>Installation et organisation de votre réseau physique.</p>
-            <ul>
-                <li>Installation câbles RJ45</li>
-                <li>Baie de brassage</li>
-                <li>Réseau entreprise</li>
-                <li>Test et certification</li>
-            </ul>
-        </div>
-
-    </div> <!-- ✅ fermeture manquante -->
-</section>
-
-<footer>
-    <p>© 2026 SmartFix IT - Sénégal</p>
+<footer class="site-footer">
+    <p>© 2026 SmartFix IT - Sénégal. Tous droits réservés.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>

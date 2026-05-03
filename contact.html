@@ -2,66 +2,64 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez SmartFix IT pour une assistance informatique, réseau, sauvegarde ou câblage au Sénégal.">
     <title>Contact - SmartFix IT</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1><img src="images/logo.png" alt="SmartFix IT Logo" class="logo">
-</h1>
-    <nav>
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="Accueil SmartFix IT">
+        <img src="images/logo.png" alt="Logo SmartFix IT" class="logo">
+        <span>SmartFix IT</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
         <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
+        <a class="active" href="contact.html">Contact</a>
     </nav>
 </header>
 
-<section class="hero">
-    <h2>Contactez-nous</h2>
-    <p class="slogan">Des solutions IT pour chaque entreprise</p>
-</section>
+<main>
+    <section class="page-hero">
+        <span class="badge">Contact</span>
+        <h1>Parlez-nous de votre besoin informatique.</h1>
+        <p>Nous vous répondrons dans les meilleurs délais pour vous proposer une solution adaptée.</p>
+    </section>
 
-<section class="contact">
+    <section class="section contact-section">
+        <div class="contact-card">
+            <h2>Coordonnées</h2>
+            <p><strong>Téléphone :</strong> <a href="tel:+221756447598">+221 75 644 75 98</a></p>
+            <p><strong>Email :</strong> <a href="mailto:helpdesk.informatique83@gmail.com">helpdesk.informatique83@gmail.com</a></p>
+            <a class="btn btn-whatsapp" href="https://wa.me/221756447598?text=Bonjour%20SmartFix%20IT%2C%20je%20souhaite%20un%20service%20informatique" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+        </div>
 
-    <h2>Envoyez-nous un message</h2>
+        <form class="contact-form" action="https://formsubmit.co/helpdesk.informatique83@gmail.com" method="POST">
+            <h2>Envoyez un message</h2>
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom" placeholder="Votre nom" required>
 
-    <div class="contact-info">
-        <p>📞 Téléphone : +221 75 644 75 98</p>
-        <p>📧 Email : helpdesk.informatique83@gmail.com</p>
-    </div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Votre email" required>
 
-    <div style="margin-top:20px;">
-        <a href="https://wa.me/221756447598" target="_blank">
-            <button class="whatsapp-btn">Contact WhatsApp</button>
-        </a>
-    </div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Décrivez votre besoin" required></textarea>
 
-</section>
+            <input type="hidden" name="_next" value="https://babuyande.github.io/sosinformatique/merci.html">
+            <input type="hidden" name="_subject" value="Nouveau message SmartFix IT">
+            <input type="hidden" name="_captcha" value="false">
 
-<footer>
-    <p>© 2026 SmartFix IT - Sénégal</p>
+            <button class="btn btn-primary" type="submit">Envoyer le message</button>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© 2026 SmartFix IT - Sénégal. Tous droits réservés.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
-<form action="https://formsubmit.co/helpdesk.informatique83@gmail.com" method="POST">
-
-    <input type="text" name="nom" placeholder="Votre nom" required>
-
-    <input type="email" name="email" placeholder="Votre email" required>
-
-    <textarea name="message" placeholder="Votre message" required></textarea>
-
-     <input type="hidden" name="_next" value="https://babuyande.github.io/sosinformatique/merci.html">
-
-    <!-- Sujet du mail -->
-    <input type="hidden" name="_subject" value="Nouveau message SmartFix IT">
-    <!-- Désactiver captcha -->
-    <input type="hidden" name="_captcha" value="false">
-
-    <button type="submit">Envoyer</button>
-
-</form>
-
